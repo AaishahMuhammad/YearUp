@@ -11,6 +11,15 @@ public class Circle
 		System.out.println("Big circle's color is " + bigCircle.m_color);
 		System.out.println("Big circle's area is " + bigCircle.CalculateArea());
 		bigCircle.PrintColor();
+		
+		Circle smallCircle = new Circle(3, "pink");
+        System.out.println("Big circle's radius is " + smallCircle.m_radius);
+		System.out.println("Big circle's color is " + smallCircle.m_color);
+	    
+		double areaOfSmallCircle = smallCircle.CalculateArea();
+		System.out.println("Small circle's area is " + areaOfSmallCircle);
+		
+		smallCircle.PrintColor();
 	}
   Circle(int radius)
   {
