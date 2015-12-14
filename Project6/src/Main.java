@@ -1,17 +1,15 @@
-
 public class Main {
 
-	public static void main(String[] args) 
+	static void main(String[] args)
 	{
-		PersonEncapsulation instructor = new PersonEncapsulation("Aaishah Muhammad", 19, "4703382181", "536 Trailside Way");
+		PersonEncapsulation instructor = new PersonEncapsulation("Nation Murray", 20, "4044400440", "730 Peachtree St NE");
 		System.out.println("Instructor's name is " + instructor.GetName());
 		System.out.println("Instructor's age is " + instructor.GetAge());
-		System.out.println("Instructor's phone number is " + instructor.GetPhoneNumber());
-		System.out.println("Instructor's address is " + instructor.GetAddress());
+		System.out.println("Instructor's phone number is " + instructor.GetphoneNumber());
+		System.out.println("Instructor's adress is" + instructor.GetAddress());
+		System.out.println("It is June 24, 2015 today");
 		instructor.GrowsOlder();
-		System.out.println("Instructor's age is now " + instructor.GetAge());
+		System.out.println("instructor's age is now " + instructor.GetAge());
 		
-
 	}
-
 }
